@@ -23,7 +23,7 @@ color: white;
 background-color: green;
 font-family: Arial;
 padding-top: 2px !important;
-padding-bottom: 5px !important;
+padding-bottom: 2px !important;
 padding-left: 5px !important;
 padding-right: 5px !important;
 }
@@ -35,6 +35,13 @@ font-size:9px;
 .w96-button[disabled] {
 background-color:grey;
 color: grey
+}
+
+.iexploder-app .w96-button:not(.go){
+background-color: white;
+border-radius: 50%;
+border: 2px solid green;
+padding: 2px !important;
 }
 
 .choosecolor.w96-button{
