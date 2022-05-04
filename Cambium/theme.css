@@ -2,6 +2,46 @@
 Cambium Theme for Windows96
 */
 
+
+
+details > summary {
+    list-style-type: none !important;
+}
+
+details > summary::-webkit-details-marker {
+    display: none !important;
+}
+
+details > summary::before {
+    content: '+';
+  color:white;
+  font-size:10px;
+  background-color:grey;
+  width: 17px !important;
+  height:17px;
+  float:right;
+  display:inline-block;
+  text-align:center;
+}
+
+summary::marker {
+  display:none !important;
+  color: transparent !important;
+}
+
+details[open] > summary::before {
+    content: '-' !important;
+  color:white;
+  font-size:10px;
+  background-color:grey;
+  width: 17px !important;
+  height:17px;
+  float:right;
+  display:inline-block;
+  text-align:center;
+}
+
+
 *{font-family:Arial,sans;}
 
 .w96-menubar,.w96-menubar *{font-family:Arial,sans !important;}
