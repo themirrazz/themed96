@@ -128,7 +128,7 @@ width:100% !important;
   font-size:8px;
 }
 .taskbar-task-text{text-align:center !important;}
-.taskbar-task-icon {
+.taskbar-task-icon,.w96-toolbar .icon {
 display: block !important;
 height: 30px !important;
   width: 30px !important;
@@ -138,4 +138,9 @@ margin:0px;
   background-size: 80% !important;
 border: 3px solid grey;
 border-radius: 50%;
+}
+
+
+.pane-container {
+  background-color:white
 }
