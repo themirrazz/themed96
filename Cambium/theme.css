@@ -48,15 +48,35 @@ details[open] > summary::before {
 
 *{font-family:Arial,sans;}
 
+
+
+.wexplorer-app.nodrag.window-html-content .w96-toolbar div.item-bottom.item:nth-of-type(1) .icon{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAX9JREFUOI1j/P///38GKgEmahlEX8Oar6xmEF4bxxB7fCLDfwbCocGILcz+/P/LkHZqOsP8e/vgYjd9pjCo8UrhNYwFXeDb358M4Ud7GbY8PQMX0+aXZVDgFiPoMhTD3v36wuBzsJXh+JubcDFTIRWGrQ41DGxMGPZiALg3H317w+C+v5HhxqencEkFbjGGGaYZDNws7HgNkeIUYlDiEYcY9vXPDwadbQUMD76+Img7NsDEyMiw3KoIEpv3vrwk2yAGBgaGf///Mxx4dRUSZjoCcgwhspYMax4fR1HEyczGwEXAiwwMDAzSnEIMWaoeiDD7+/8fQ9aZWQyz7uyCKxLj4GfY7lDLYCSoRJQLMdJZ/eUVDE1XVsH5vKycDOtsyhlcJPRIN4yBgYFhxp2dDNlnZjH8g0pxs3AwPPKfxSDExoPXMKzZKUPFnWG1dSkDBzMrAwMDA8P3vz8Zvv35SdBlDP/xgJNvbv1PODH5/8qHR/ApgwOs3iQXDNHyjFQAAP8Ayosi7m0sAAAAAElFTkSuQmCC) !important;
+    filter: none !important;
+    background-position:center !important;
+    background-size: 70% !important;
+}
+
+.wexplorer-app.nodrag.window-html-content .w96-toolbar div.item-bottom.item:nth-of-type(2) .icon{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAWhJREFUOI1j/P///38GKgEmahk0MIZteXqGQXx9IoPj3jqGZ9/fUWZY381NDK9+fGQ48OoKg+WuCoYbn56Sb5iPlAmc/ejbGwabPVUMJ97cwlDHSGxsdl5bz1B5cQnDfwaIci5mdoZVNiUM3lLGqIZ9+fOD4fKHhwx////Da+DiBwcZZt3ZBeezMDIzzDLLZEhUcoIY9vn39/+62woYHnx9RYwDsYLVNqUMIbKWDEz3vrykyCAGBgaGAy+vQFyqKyDHkKjkxLD12VmC3vz//z/Du19fUMRE2fkYstU8GRgYSIiAn/9+M8Qen8iw+tExuJgijzjDToc6BlVeSYjLiDHo4+9vDAGHOhgOvLoCF9MXUGDY4VjHIMEhABcjyrDCc/NQDHIU12HYYFvBwMfKhaKOKMPe/vwMZ4fKWTEstsxnYGdixVBHlGGTTVIZJDgFGTT4pBny1XwYmBgZsaojOgKIAUO8PCMWAADjxYT0DIPmFwAAAABJRU5ErkJggg==) !important;
+    filter: none !important;
+    background-position:center !important;
+    background-size: 70% !important;
+}
+
 .w96-menubar,.w96-menubar *{font-family:Arial,sans !important;}
 .w96-menubar *,.wcontext-menu *,.w96-button{font-size:14px !important;}
 .window-dlg .ui-icon-gripsmall-diagonal-se,.livecss-window .ui-icon-gripsmall-diagonal-se {
-  background-color: #42c2f5 !important;
+  background-color: #00aeef !important;
   border-radius: 50px;
   height: 25px;
   width: 25px;
   bottom:-8px;
   right:-8px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAAAAXNSR0IArs4c6QAABLZJREFUSIm9lltsVEUYx39zrttut7QUykUoLaWFQkiIEBKCCQ/GSMKDl0RNvCT0QcBbUAliog+ixoQXjfIiT5oYYxQD8mJifFERSDUYbgZoaGm5FIR2u912t7vn7Mz4MN1lt+221QD/t3MyM7/5vvnm/43oiOf0Rxcz/Hwrx6jUaO6eBOBZ8GCNw+4WnycWuohNvw3rE/EcgbqLpHFyBLTFbHa1+Aj3h0Ed3kNYXraAFTEb637AAKSGC8MS6/7g7kCd/MfDcx3eXRGhOXpnD1rDn4OSjy9lOR7PlV1ozSybnc0+G+fYiKL/PSnNgctZvu8LC/8cANcy+X2ozsEpmqGBkZymMWpxPF5+5wsiFutqbZZF7XH/NaeGnIlAgamkPExp+GNQ8vXVgNNJyekhWZ4GHIvneOnUKOtrbTbPc3mk3iTOFQJ33KFNeoZCwPKYxbIqi85hSTKc+nYOh5qLIxLPEqytMVGWmzEBeDIhOdwXUmHBs4s83mzxqfPEZHMLqvUEzy/2eL3Zp8IW/D4g+emfyc/cyu8mv6Oro4r93VkO9ATEHGhv8NnTWh462xNsbfDY0xqh2hUcvhHy/oUMPWll1h0XqgOQU3BmSPLNtYCOuKQjnuNKWqE17GjyaG/wAdjXmWUg0CWw9gaPt1ojxBwD23s+Q19GMdeHGhd+6S+NVHBoUIPxvEpbECpISY0loLHS4tWlPjuaPFISvuzNsq8zS3+gqfME7Us8dreUwrpSEqUhYgt8C0alJltkLoUzDBQkQk1KmgiUhp60Se/nlwOiDjy2wOPxhS4AG+sctjf6VDlwqC8owKQ2xzMqNYmwFFZIaTkpDb1pxf6uLEOhZmW1TXfKrHAzozgxmCNxS7O/K6B7DDadCimdSpYw6XaFSXegjFlEbYHSMCI1aoZ9bcoI81LaOE6xQgWJmVL+K7DeFzz9gMeKmMVXVwI6BiWrq21eWOzRHyi+6A24HcwMPi1wni94sclnZ7NPItScS0o6BiUtVRZPLXKptGGuLwrVO52mbE952BvLfCpsONqf48eb5l6dTEiO3AiZ5Qq2jpnDnGkcCcDmmbffA1hfa7OrJcL8iMW5pKS+COZbcPB6yIcXM1wZVYUu0jmicIRgw2yblTGHqAN/Jcw93DzPYVujR6BMpedl2pMwD53tTR5HboScSUq2zHcNTMB31wysJ60K1Sg1XE4rPuvKArCt8Y4jfXst5NF6l+cWewRK8GuR25j2JMAfc5ollRYvL/V4cqFnYNdDPriQoXdUTSh9NQb9tCuLGrPBrQ0+zVHTiCsdQUVpi5xYNOtqHNbMslF6algxNO9IGgPdMt8tO35C0XgWRCzB2aTi2ECOqCOwxdTF4Aiz0Nmk5OiAxLeYEFnZCME4y9oam7bVFZwfVnxyKcPB6+FkQwHYNMdhb1uEtphNxC7d3PhAHTCu0Z1S/J2UNBU9otwxtx+Y5n6N5GAoNOOV1qTHXiTdKcW5ZOnzpOClvgXVrsAZl75AaYZzesqXuWdBlSPwrdK5Oa0ZyZlNl0QIkFVwO1vc+2euQEE8mNnc+/oQXlRhYa2qLlNO9wD2WrOPtW9VhA2zZ9Q0/rdaqyzeWR7hlaUe/wJrixhDqa3CmQAAAABJRU5ErkJggg==);
+    background-repeat:no-repeat !important;
+    background-position:center !important;
+    background-size: 80% !important;
 }
 
 /*.w96-button:not(.start_button) {
